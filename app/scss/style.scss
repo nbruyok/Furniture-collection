@@ -187,3 +187,50 @@
     width: 125px;
   }
 }
+
+.rightside-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 694px;
+  width: 100%;
+  background-color: #ffffff;
+  padding-top: 40px;
+
+  &__close {
+    background-color: transparent;
+    border: none;
+    color: $black;
+    padding: 0;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    cursor: pointer;
+  }
+
+  &__content {
+    text-align: center;
+    max-width: 485px;
+    margin: 0 auto;
+  }
+
+  &__logo {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    color: $black;
+    @extend %title-font;
+    font-size: 36px;
+    line-height: 51px;
+  }
+
+  &__text {
+    margin-bottom: 75px;
+  }
+
+  &__images {
+    max-width: 485px;
+  }
+}
