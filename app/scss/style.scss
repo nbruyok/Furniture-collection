@@ -614,6 +614,17 @@
     grid-column: span 2;
     grid-row: span 2;
   }
+
+  &.gallery-page {
+    .gallery__images {
+      max-height: 1173px;
+    }
+
+    .gallery__item:nth-child(8) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
 }
 
 // blog-box
