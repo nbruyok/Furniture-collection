@@ -35,7 +35,9 @@
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__list-item">
-                  <a class="menu__list-link" href="">Blog</a>
+                  <a class="menu__list-link menu__list-link--active" href=""
+                    >Blog</a
+                  >
                 </li>
                 <li class="menu__list-item">
                   <a class="menu__list-link" href="">Contact</a>
@@ -78,11 +80,151 @@
                 <a class="breadcrumbs__link" href="">Home</a>
               </li>
               <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link" href="">About</a>
+                <a class="breadcrumbs__link" href="">Blog</a>
               </li>
             </ul>
           </div>
         </div>
+
+        <section class="blog">
+          <div class="container">
+            <div class="blog__inner">
+              <div class="blog__items"></div>
+
+              <aside class="aside">
+                <form class="aside__search">
+                  <input class="aside__search-input" placeholder="Search" />
+                  <button class="aside__search-btn" type="submit">
+                    <img
+                      class="aside__search-images"
+                      src="images/search-icon.svg"
+                      alt="search icon"
+                    />
+                  </button>
+                </form>
+
+                <div class="aside__categories">
+                  <h6 class="aside__categories-title">Categories</h6>
+                  <ul class="aside__categories-list">
+                    <li class="aside__categories-item">
+                      <a class="aside__categories-link" href="#">
+                        Dining room (1)
+                      </a>
+                    </li>
+                    <li class="aside__categories-item">
+                      <a class="aside__categories-link" href="#">
+                        Office furniture (12)
+                      </a>
+                    </li>
+                    <li class="aside__categories-item">
+                      <a class="aside__categories-link" href="#">
+                        Simple interiror design (2)
+                      </a>
+                    </li>
+                    <li class="aside__categories-item">
+                      <a class="aside__categories-link" href="#">
+                        Design (4)
+                      </a>
+                    </li>
+                    <li class="aside__categories-item">
+                      <a class="aside__categories-link" href="#">
+                        Bedroom Furniture (1)
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="recent-posts">
+                  <h6 class="recent-posts__title">Recent Posts</h6>
+                  <ul class="recent-posts__list">
+                    <li class="recent-posts__item">
+                      <a class="recent-posts__link" href="#">
+                        Cred selfies edison bulb four dollar toast humblebrag
+                      </a>
+                      <span class="recent-posts__date">August 10, 2020 | </span>
+                      <a class="recent-posts__author" href="#">
+                        by Ann Summers
+                      </a>
+                    </li>
+                    <li class="recent-posts__item">
+                      <a class="recent-posts__link" href="#">
+                        Semiotics fixie four dollar toast, next level woke
+                        scenester direct trade photo booth
+                      </a>
+                      <span class="recent-posts__date">
+                        September 30 ,2020 |
+                      </span>
+                      <a class="recent-posts__author" href="#">
+                        by Ann Summers
+                      </a>
+                    </li>
+                    <li class="recent-posts__item">
+                      <a class="recent-posts__link" href="#">
+                        Cred selfies edison bulb four dollar toast humblebrag
+                      </a>
+                      <span class="recent-posts__date">May 2, 2020 | </span>
+                      <a class="recent-posts__author" href="#">
+                        by Ann Summers
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="tags">
+                  <h6 class="tags__title">Tags</h6>
+                  <a class="tags__link" href="">Dining room futniture</a>
+                  <a class="tags__link" href="">Chair</a>
+                  <a class="tags__link" href="">Table</a>
+                  <a class="tags__link" href="">Bedroom</a>
+                  <a class="tags__link" href="">Office Furniture</a>
+                </div>
+
+                <ul class="aside__social">
+                  <li class="aside__social-item">
+                    <a class="aside__social-link" href="#"
+                      ><img
+                        class="aside__social-img"
+                        src="images/facebook.svg"
+                        alt="Facebook"
+                    /></a>
+                  </li>
+                  <li class="aside__social-item">
+                    <a class="aside__social-link" href="#"
+                      ><img
+                        class="aside__social-img"
+                        src="images/instagram.svg"
+                        alt="Instagram"
+                    /></a>
+                  </li>
+                  <li class="aside__social-item">
+                    <a class="aside__social-link" href="#"
+                      ><img
+                        class="aside__social-img"
+                        src="images/Pinterest.svg"
+                        alt="Pinterest"
+                    /></a>
+                  </li>
+                  <li class="aside__social-item">
+                    <a class="aside__social-link" href="#"
+                      ><img
+                        class="aside__social-img"
+                        src="images/whatsapp.svg"
+                        alt="Whats app"
+                    /></a>
+                  </li>
+                  <li class="aside__social-item">
+                    <a class="aside__social-link" href="#"
+                      ><img
+                        class="aside__social-img"
+                        src="images/youtube.svg"
+                        alt="Youtube"
+                    /></a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="footer">
@@ -95,9 +237,7 @@
                   Keffiyeh poutine etsy, paleo cray put a bird on it microdosing
                   schlitz you probably occupy
                 </p>
-                <a
-                  class="info-email"
-                  href="mailto:ouremailaddress@email.com "
+                <a class="info-email" href="mailto:ouremailaddress@email.com "
                   >ouremailaddress@email.com</a
                 >
                 <form class="footer__form">
